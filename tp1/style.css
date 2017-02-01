@@ -27,6 +27,6 @@ table{
 @media screen and(max-width: 480px){
     table th td{
         display: block;
-        max-width: 100%;
+        width: 100%;
     }
 }
