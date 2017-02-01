@@ -1,0 +1,26 @@
+html{
+    font-size: 62.5%;
+}
+
+*{
+    font-size: 1.6rem;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+p{
+	background-color:#3498db;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+@media screen and(max-width: 480px){
+    
+}
