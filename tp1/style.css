@@ -25,9 +25,13 @@ table{
 
 
 @media screen and (max-width: 480px){
-    table{
-        display: block;
+    tr {
+        display: table;
         width: 100%;
         height: auto;
+    }
+    
+    td th {
+        display: table-row;
     }
 }
