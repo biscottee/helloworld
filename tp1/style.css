@@ -27,15 +27,21 @@ table{
 
 @media screen and (max-width: 480px){
     table {
-        display: table;
+        width: 100%;
+        margin:0px;
+        margin-bottom: 20px;
     }
     tr {
-        display: table;
+        display: block;
         height: auto;
+        width=100%;
     }   
+    th{
+        background-color: lightgray;
+    }
     
-    td th {
-        display: inline-block;
+    td, th {
+        display: block;
         width: 100%;
     }
     
