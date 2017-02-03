@@ -21,10 +21,14 @@ img{
 
 table{
     margin: 20px;
+    text-align: center;
 }
 
 
 @media screen and (max-width: 480px){
+    table {
+        display: block;
+    }
     tr {
         display: table;
         height: auto;
