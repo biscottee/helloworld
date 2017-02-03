@@ -9,6 +9,11 @@ html{
 *{
     font-size: 1.6rem;
 }
+#bouh{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 h1{
     font-size: 8vw;
