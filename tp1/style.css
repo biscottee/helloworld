@@ -36,6 +36,8 @@ table{
 
 @media screen and (max-width: 480px){
     html{
+        background-image: url(image/suricate.jpg);
+        
         background-position: center;
     }
     table {
