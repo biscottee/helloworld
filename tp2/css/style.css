@@ -1,3 +1,18 @@
 #lignelogo{
-    
+    border: bottom 1px black;
+    /*display: block;*/
+    height: 200px;
 }
+#lignelogo ul{
+    float: right;
+}
+#lignelogo li{
+    display: inline-block;
+    list-style-type: none;
+    text-align: right;
+}
+#logo{
+    width:10%;
+    float: left;
+}
+
