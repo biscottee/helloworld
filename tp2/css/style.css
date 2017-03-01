@@ -26,7 +26,12 @@
 }
 
 #quoi{
-    height : 600px;
+    height : 500px;
+}
+
+#images{
+    width: 100%;
+    height: 300px;
 }
 
 #images ul li{
@@ -37,9 +42,20 @@
     float: left;
     text-align: center;
 }
-#images ul li img{
+#images ul li div{
     height: 85%;
     width: auto;
+    box-sizing: border-box;
+}
+
+#images img{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#flemmard{
+    width: 100%;
 }
 
 #reste{
@@ -95,7 +111,7 @@ form input{
 }
 
 textarea{
-    height: 70px;
+    height: 150px;
 }
 
 #boutton{
