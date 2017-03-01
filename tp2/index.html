@@ -59,15 +59,29 @@ Leur pelage est blond avec quelques franges sombres sur le dos. Deux particulari
             <div id="form">
                 <h2>Rejoins nous !</h2>
                 <form>
-                    <input type="text" name="prenom" class="petit" placeholder="Prenom"/>
-                    <input type="text" name="nom"  class="petit" placeholder="Nom"/>
-                    <input type="date" name="datenais" class="petit" placeholder="DD/MM/AAAA"/>
-                    <input type="text" name="ville" class="petit" placeholder="Ville de naissance"/>
-                    <input type="email" name="mail" class="grand" placeholder="Adresse Email"/>
-                    <input type="file" class="grand" name="image"/>
-                    <textarea name="message" class="grand" placeholder="Message"></textarea>
+                    <div class="petit">
+                        <input type="text" name="prenom" class="gauche" placeholder="Prenom"/>
+                    </div>
+                    <div class="petit">
+                        <input type="text" name="nom"  class="droite" placeholder="Nom"/>
+                    </div>
+                    <div class="petit">
+                        <input type="date" name="datenais" class="gauche" placeholder="DD/MM/AAAA"/>
+                    </div>
+                    <div class="petit">
+                        <input type="text" name="ville" class="droite" placeholder="Ville de naissance"/>
+                    </div>
+                    <div class="grand">
+                        <input type="email" name="mail" placeholder="Adresse Email"/>
+                    </div>
+                    <div class="grand">
+                        <input type="file" class="grand" name="image"/>
+                    </div>
+                    <div class="grand">
+                        <textarea name="message" class="grand" placeholder="Message"></textarea>
+                    </div>
                     <div id="boutton">
-                    <button type="submit">Envoyer</button>
+                        <button type="submit">Envoyer</button>
                     </div>
                 </form>
             </div>
