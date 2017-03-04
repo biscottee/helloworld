@@ -1,11 +1,23 @@
 #lignelogo{
     border-bottom:1px solid black;
-    /*display: block;*/
     height: 150px;
     margin-bottom: 10px;
 }
+
+#lignelogo a{
+    text-decoration: underline;
+    color: dodgerblue;
+    padding-right: 4px;
+    border-right: 0.5px black solid;
+}
+
 #lignelogo ul{
     float: right;
+}
+
+#lignelogo input{
+    width : 70px;
+    font-size: 12px;
 }
 #lignelogo li{
     display: inline-block;
@@ -119,5 +131,39 @@ textarea{
     text-align: right;
 }
 
-
+@media screen and (max-width: 480px){
+    #logo{
+        width: 40%;
+        margin-left:auto;
+        margin-right: auto;
+        display: block;
+        float: none;
+    }
+    
+    #lignelogo ul{
+        text-align: center;
+        padding: 0px;
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    
+    #lignelogo li{
+        font-size: 12px;
+        width: auto;
+    }
+    
+    #bande{
+        height: 15  0px;
+    }
+    
+    #images ul{
+        height: auto;
+    }
+    #images ul li{
+        width: auto;
+    }
+    #images{
+        height: 1000px;
+    }
+}
 
