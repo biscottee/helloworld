@@ -156,14 +156,35 @@ textarea{
         height: 15  0px;
     }
     
+    #quoi{
+        height: 100%;
+    }
+    
     #images ul{
-        height: auto;
+        height: 100%;
+        padding: 0px;
     }
     #images ul li{
         width: auto;
+        box-sizing: border-box;
+        height: auto;
+        float: left;
     }
     #images{
-        height: 1000px;
+        height: 980px;
+    }
+    
+    #reste{
+        height:800px;
+    }
+    
+    iframe{
+        width: 100%;
+        height: auto;
+    }
+    
+    #carte, #form{
+        width: 100%;
     }
 }
 
